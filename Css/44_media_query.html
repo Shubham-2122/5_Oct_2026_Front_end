@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 400px;
+        background: lightcoral;
+        }
+         @media only screen and (max-width:1160px) {
+            .main{
+                background:lawngreen;
+            }
+        }
+          @media only screen and (max-width:992px) {
+            .main{
+                background: navy;
+                width: 50%;
+            }
+        }
+        @media only screen and (max-width:768px) {
+            .main{
+                background: red;
+                width: 100%;
+            }
+        }
+        /* mobile view */
+        @media only screen and (max-width:576px) {
+            .main{
+                height: 200px;
+                width: 200px;
+                background: lightgreen;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+</body>
+</html>
