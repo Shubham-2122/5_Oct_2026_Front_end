@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Dom : document object model -->
+    <!-- dom manuplat : change data -->
+
+    <h1 id="test">Hello data</h1>
+    <h1 id="demo">asjkdhi</h1>
+    <!-- internal js  -->
+     <script>
+
+        // 1) console : method
+
+        // signle line comment
+
+        /*
+
+        mulit line comment
+        */
+        // console.log("hello shubham")
+         console.log("hello")
+
+         console.log("sum :",20+15)
+
+        //  2) doument.write
+
+        document.write("Hello shubham")
+        document.write("<br>hello world")
+        document.write("<h2>het</h2>")
+
+        // 3) ElementbyId : innerText
+
+        console.log(document.getElementById("test"))
+
+        // innerText : only for text allow
+        document.getElementById("test").innerText = "hello javascript"
+        
+
+        // 4) innerHTML : tag and text both alllow 
+        console.log(document.getElementById("demo"))
+        document.getElementById("demo").innerHTML = "<i>hello javascript</i>"
+
+     </script>
+
+</body>
+</html>

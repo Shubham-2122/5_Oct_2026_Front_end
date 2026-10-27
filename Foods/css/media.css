@@ -6,44 +6,75 @@
     .icons #search {
         display: none;
     }
+
     .icons #bar {
         display: block;
     }
-    .nav-ul{
+
+    .nav-ul {
         display: none;
     }
-    .header-h1{
+
+    .header-h1 {
         margin-top: 0px;
     }
-    .about-content .about-p{
+
+    .about-content .about-p {
         width: 100%;
     }
-    .about-section .row{
-    display: block;
-}
-.about-section .row .col{
-    
-    width: 100%;
-    margin: 20px 0px;
-}
-.about-img{
-    width: 100%;
-}
 
-.about-section1 .row{
-    display: block;
-    flex-direction: row-reverse;
-    margin-top: 30px;
-}
-.about-section1 .row .col{
-    margin: 30px 0px;
-    /* border: 2px solid; */
-    width: 100%;
-}
+    .about-section .row {
+        display: block;
+    }
+
+    .about-section .row .col {
+
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-section1 .row {
+        display: block;
+        flex-direction: row-reverse;
+        margin-top: 30px;
+    }
+
+    .about-section1 .row .col {
+        margin: 30px 0px;
+        width: 100%;
+    }
+
+    #foot .row {
+        display: block;
+    }
+
+    #foot .row .col-4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #foot .row .col-6 {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .col-6 .row {
+        display: block;
+    }
+
+    .col-6 .row .col {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width:576px) {
-    .header-p{
+    .header-p {
         width: 60%;
     }
 }
